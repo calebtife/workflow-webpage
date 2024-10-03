@@ -9,7 +9,7 @@ body {
     font-family: serif sans-serif;
 }
 .navbar {
-    padding: 15px 20px;
+    padding-top: 20px;
     justify-content: center;
     align-items: center;
     margin-bottom: 40px;
@@ -61,13 +61,13 @@ body {
     align-items: center;
     background-color: rgb(218, 214, 214);
     padding: 5px;
-    border-radius: 20px;
+    border-radius: 30px;
     margin: 0 auto; /* Center the topbar if desired */
 }
 .topbar .new {
    background-color: greenyellow;
-   padding: 10px;
-   border-radius: 15px;
+   padding: 10px 15px;
+   border-radius: 20px;
 }
 .heading-container {
     display: flex;
@@ -104,4 +104,49 @@ body {
     color: black;
     background-color: #8080806a;
     font-weight: 700;
+}
+.manifesto-container {
+    background-color: white;
+    width: 70%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    border-radius: 40px;
+}
+.manifesto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.manifesto-details {
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+    margin: 0 10px;
+   
+}
+.divider {
+    width: 2px;
+    background-color: #8080806a;
+    height: 60%;
+    margin: 0 10px;
+
+}
+.manifesto-heading {
+    margin: 10px 0;
+    font-size: 25px;
+}
+.manifesto-details .fas {
+    font-size: 30px;
+    padding: 10px 30px;
+    border: 2px solid #8080806a;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+.manifesto-body {
+    line-height: 1em;
+    text-align: center;
+    font-size: 18px;
 }
